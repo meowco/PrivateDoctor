@@ -1,0 +1,17 @@
+//
+//  AppDelegate.h
+//  PrivateDoctor
+//
+//  Created by 猫儿出墙 on 2017/6/10.
+//  Copyright © 2017年 Meowco. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+@interface AppDelegate : UIResponder <UIApplicationDelegate>
+
+@property (strong, nonatomic) UIWindow *window;
+
+
+@end
+

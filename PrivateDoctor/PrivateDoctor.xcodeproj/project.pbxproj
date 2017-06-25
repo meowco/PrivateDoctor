@@ -1,0 +1,643 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2719D0A31EEBD9560089150A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2719D0A21EEBD9560089150A /* main.m */; };
+		2719D0A61EEBD9560089150A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2719D0A51EEBD9560089150A /* AppDelegate.m */; };
+		2719D0AE1EEBD9560089150A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2719D0AD1EEBD9560089150A /* Assets.xcassets */; };
+		2719D0B11EEBD9560089150A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2719D0AF1EEBD9560089150A /* LaunchScreen.storyboard */; };
+		2719D0BC1EEBD9560089150A /* PrivateDoctorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2719D0BB1EEBD9560089150A /* PrivateDoctorTests.m */; };
+		2719D0C71EEBD9560089150A /* PrivateDoctorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2719D0C61EEBD9560089150A /* PrivateDoctorUITests.m */; };
+		273847B11EFBFBAF00C478A0 /* mainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 273847B01EFBFBAF00C478A0 /* mainViewController.m */; };
+		273847B41EFBFD5700C478A0 /* homepageTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 273847B31EFBFD5700C478A0 /* homepageTableViewController.m */; };
+		273847B71EFBFEDE00C478A0 /* settingTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 273847B61EFBFEDE00C478A0 /* settingTableViewController.m */; };
+		273847BA1EFBFEFA00C478A0 /* signInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 273847B91EFBFEFA00C478A0 /* signInViewController.m */; };
+		273847BD1EFBFF1000C478A0 /* diagnoseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 273847BC1EFBFF1000C478A0 /* diagnoseTableViewController.m */; };
+		273847C01EFBFF4C00C478A0 /* doctorDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 273847BF1EFBFF4C00C478A0 /* doctorDetailViewController.m */; };
+		273847C31EFBFF6F00C478A0 /* shopTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 273847C21EFBFF6F00C478A0 /* shopTableViewController.m */; };
+		273847C61EFBFFB500C478A0 /* medicineTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 273847C51EFBFFB500C478A0 /* medicineTableViewController.m */; };
+		A2E7191273ED74B3FA5C8574 /* libPods-PrivateDoctor.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 661855F9BB92B226EF3F1FD4 /* libPods-PrivateDoctor.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2719D0B81EEBD9560089150A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2719D0961EEBD9550089150A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2719D09D1EEBD9550089150A;
+			remoteInfo = PrivateDoctor;
+		};
+		2719D0C31EEBD9560089150A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2719D0961EEBD9550089150A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2719D09D1EEBD9550089150A;
+			remoteInfo = PrivateDoctor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2719D09E1EEBD9560089150A /* PrivateDoctor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PrivateDoctor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2719D0A21EEBD9560089150A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2719D0A41EEBD9560089150A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2719D0A51EEBD9560089150A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2719D0AD1EEBD9560089150A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2719D0B01EEBD9560089150A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2719D0B21EEBD9560089150A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2719D0B71EEBD9560089150A /* PrivateDoctorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PrivateDoctorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2719D0BB1EEBD9560089150A /* PrivateDoctorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PrivateDoctorTests.m; sourceTree = "<group>"; };
+		2719D0BD1EEBD9560089150A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2719D0C21EEBD9560089150A /* PrivateDoctorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PrivateDoctorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2719D0C61EEBD9560089150A /* PrivateDoctorUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PrivateDoctorUITests.m; sourceTree = "<group>"; };
+		2719D0C81EEBD9560089150A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		273847AF1EFBFBAF00C478A0 /* mainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = mainViewController.h; path = ../mainViewController.h; sourceTree = "<group>"; };
+		273847B01EFBFBAF00C478A0 /* mainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = mainViewController.m; path = ../mainViewController.m; sourceTree = "<group>"; };
+		273847B21EFBFD5700C478A0 /* homepageTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = homepageTableViewController.h; sourceTree = "<group>"; };
+		273847B31EFBFD5700C478A0 /* homepageTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = homepageTableViewController.m; sourceTree = "<group>"; };
+		273847B51EFBFEDE00C478A0 /* settingTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = settingTableViewController.h; sourceTree = "<group>"; };
+		273847B61EFBFEDE00C478A0 /* settingTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = settingTableViewController.m; sourceTree = "<group>"; };
+		273847B81EFBFEFA00C478A0 /* signInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = signInViewController.h; sourceTree = "<group>"; };
+		273847B91EFBFEFA00C478A0 /* signInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = signInViewController.m; sourceTree = "<group>"; };
+		273847BB1EFBFF1000C478A0 /* diagnoseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = diagnoseTableViewController.h; sourceTree = "<group>"; };
+		273847BC1EFBFF1000C478A0 /* diagnoseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = diagnoseTableViewController.m; sourceTree = "<group>"; };
+		273847BE1EFBFF4C00C478A0 /* doctorDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = doctorDetailViewController.h; sourceTree = "<group>"; };
+		273847BF1EFBFF4C00C478A0 /* doctorDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = doctorDetailViewController.m; sourceTree = "<group>"; };
+		273847C11EFBFF6F00C478A0 /* shopTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = shopTableViewController.h; sourceTree = "<group>"; };
+		273847C21EFBFF6F00C478A0 /* shopTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = shopTableViewController.m; sourceTree = "<group>"; };
+		273847C41EFBFFB500C478A0 /* medicineTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = medicineTableViewController.h; sourceTree = "<group>"; };
+		273847C51EFBFFB500C478A0 /* medicineTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = medicineTableViewController.m; sourceTree = "<group>"; };
+		661855F9BB92B226EF3F1FD4 /* libPods-PrivateDoctor.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PrivateDoctor.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E8D13B64C6F6C842C73D19A /* Pods-PrivateDoctor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrivateDoctor.release.xcconfig"; path = "Pods/Target Support Files/Pods-PrivateDoctor/Pods-PrivateDoctor.release.xcconfig"; sourceTree = "<group>"; };
+		D76DA566FC845A32520BC3F7 /* Pods-PrivateDoctor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrivateDoctor.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PrivateDoctor/Pods-PrivateDoctor.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2719D09B1EEBD9550089150A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2E7191273ED74B3FA5C8574 /* libPods-PrivateDoctor.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2719D0B41EEBD9560089150A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2719D0BF1EEBD9560089150A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1FA31B69FB94554BF85A2B67 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D76DA566FC845A32520BC3F7 /* Pods-PrivateDoctor.debug.xcconfig */,
+				8E8D13B64C6F6C842C73D19A /* Pods-PrivateDoctor.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		2719D0951EEBD9550089150A = {
+			isa = PBXGroup;
+			children = (
+				2719D0A01EEBD9560089150A /* PrivateDoctor */,
+				2719D0BA1EEBD9560089150A /* PrivateDoctorTests */,
+				2719D0C51EEBD9560089150A /* PrivateDoctorUITests */,
+				2719D09F1EEBD9560089150A /* Products */,
+				1FA31B69FB94554BF85A2B67 /* Pods */,
+				7DFDDE40F3980E651C124D7A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2719D09F1EEBD9560089150A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2719D09E1EEBD9560089150A /* PrivateDoctor.app */,
+				2719D0B71EEBD9560089150A /* PrivateDoctorTests.xctest */,
+				2719D0C21EEBD9560089150A /* PrivateDoctorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2719D0A01EEBD9560089150A /* PrivateDoctor */ = {
+			isa = PBXGroup;
+			children = (
+				2719D0A41EEBD9560089150A /* AppDelegate.h */,
+				2719D0A51EEBD9560089150A /* AppDelegate.m */,
+				273847AF1EFBFBAF00C478A0 /* mainViewController.h */,
+				273847B01EFBFBAF00C478A0 /* mainViewController.m */,
+				273847B21EFBFD5700C478A0 /* homepageTableViewController.h */,
+				273847B31EFBFD5700C478A0 /* homepageTableViewController.m */,
+				273847BB1EFBFF1000C478A0 /* diagnoseTableViewController.h */,
+				273847BC1EFBFF1000C478A0 /* diagnoseTableViewController.m */,
+				273847BE1EFBFF4C00C478A0 /* doctorDetailViewController.h */,
+				273847BF1EFBFF4C00C478A0 /* doctorDetailViewController.m */,
+				273847C41EFBFFB500C478A0 /* medicineTableViewController.h */,
+				273847C51EFBFFB500C478A0 /* medicineTableViewController.m */,
+				273847C11EFBFF6F00C478A0 /* shopTableViewController.h */,
+				273847C21EFBFF6F00C478A0 /* shopTableViewController.m */,
+				273847B51EFBFEDE00C478A0 /* settingTableViewController.h */,
+				273847B61EFBFEDE00C478A0 /* settingTableViewController.m */,
+				273847B81EFBFEFA00C478A0 /* signInViewController.h */,
+				273847B91EFBFEFA00C478A0 /* signInViewController.m */,
+				2719D0AD1EEBD9560089150A /* Assets.xcassets */,
+				2719D0AF1EEBD9560089150A /* LaunchScreen.storyboard */,
+				2719D0B21EEBD9560089150A /* Info.plist */,
+				2719D0A11EEBD9560089150A /* Supporting Files */,
+			);
+			path = PrivateDoctor;
+			sourceTree = "<group>";
+		};
+		2719D0A11EEBD9560089150A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2719D0A21EEBD9560089150A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2719D0BA1EEBD9560089150A /* PrivateDoctorTests */ = {
+			isa = PBXGroup;
+			children = (
+				2719D0BB1EEBD9560089150A /* PrivateDoctorTests.m */,
+				2719D0BD1EEBD9560089150A /* Info.plist */,
+			);
+			path = PrivateDoctorTests;
+			sourceTree = "<group>";
+		};
+		2719D0C51EEBD9560089150A /* PrivateDoctorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2719D0C61EEBD9560089150A /* PrivateDoctorUITests.m */,
+				2719D0C81EEBD9560089150A /* Info.plist */,
+			);
+			path = PrivateDoctorUITests;
+			sourceTree = "<group>";
+		};
+		7DFDDE40F3980E651C124D7A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				661855F9BB92B226EF3F1FD4 /* libPods-PrivateDoctor.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2719D09D1EEBD9550089150A /* PrivateDoctor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2719D0CB1EEBD9560089150A /* Build configuration list for PBXNativeTarget "PrivateDoctor" */;
+			buildPhases = (
+				947E79CEC546ECEC237A962B /* [CP] Check Pods Manifest.lock */,
+				2719D09A1EEBD9550089150A /* Sources */,
+				2719D09B1EEBD9550089150A /* Frameworks */,
+				2719D09C1EEBD9550089150A /* Resources */,
+				12D798997B2AB4F85D4B2EDC /* [CP] Embed Pods Frameworks */,
+				0A7F51C17AB976005FA4ACAB /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PrivateDoctor;
+			productName = PrivateDoctor;
+			productReference = 2719D09E1EEBD9560089150A /* PrivateDoctor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2719D0B61EEBD9560089150A /* PrivateDoctorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2719D0CE1EEBD9560089150A /* Build configuration list for PBXNativeTarget "PrivateDoctorTests" */;
+			buildPhases = (
+				2719D0B31EEBD9560089150A /* Sources */,
+				2719D0B41EEBD9560089150A /* Frameworks */,
+				2719D0B51EEBD9560089150A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2719D0B91EEBD9560089150A /* PBXTargetDependency */,
+			);
+			name = PrivateDoctorTests;
+			productName = PrivateDoctorTests;
+			productReference = 2719D0B71EEBD9560089150A /* PrivateDoctorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2719D0C11EEBD9560089150A /* PrivateDoctorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2719D0D11EEBD9560089150A /* Build configuration list for PBXNativeTarget "PrivateDoctorUITests" */;
+			buildPhases = (
+				2719D0BE1EEBD9560089150A /* Sources */,
+				2719D0BF1EEBD9560089150A /* Frameworks */,
+				2719D0C01EEBD9560089150A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2719D0C41EEBD9560089150A /* PBXTargetDependency */,
+			);
+			name = PrivateDoctorUITests;
+			productName = PrivateDoctorUITests;
+			productReference = 2719D0C21EEBD9560089150A /* PrivateDoctorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2719D0961EEBD9550089150A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Meowco;
+				TargetAttributes = {
+					2719D09D1EEBD9550089150A = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 652H8R63G2;
+						ProvisioningStyle = Automatic;
+					};
+					2719D0B61EEBD9560089150A = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2719D09D1EEBD9550089150A;
+					};
+					2719D0C11EEBD9560089150A = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2719D09D1EEBD9550089150A;
+					};
+				};
+			};
+			buildConfigurationList = 2719D0991EEBD9550089150A /* Build configuration list for PBXProject "PrivateDoctor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2719D0951EEBD9550089150A;
+			productRefGroup = 2719D09F1EEBD9560089150A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2719D09D1EEBD9550089150A /* PrivateDoctor */,
+				2719D0B61EEBD9560089150A /* PrivateDoctorTests */,
+				2719D0C11EEBD9560089150A /* PrivateDoctorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2719D09C1EEBD9550089150A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2719D0B11EEBD9560089150A /* LaunchScreen.storyboard in Resources */,
+				2719D0AE1EEBD9560089150A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2719D0B51EEBD9560089150A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2719D0C01EEBD9560089150A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0A7F51C17AB976005FA4ACAB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PrivateDoctor/Pods-PrivateDoctor-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		12D798997B2AB4F85D4B2EDC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PrivateDoctor/Pods-PrivateDoctor-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		947E79CEC546ECEC237A962B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2719D09A1EEBD9550089150A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				273847B11EFBFBAF00C478A0 /* mainViewController.m in Sources */,
+				273847BD1EFBFF1000C478A0 /* diagnoseTableViewController.m in Sources */,
+				273847C31EFBFF6F00C478A0 /* shopTableViewController.m in Sources */,
+				273847C61EFBFFB500C478A0 /* medicineTableViewController.m in Sources */,
+				273847B71EFBFEDE00C478A0 /* settingTableViewController.m in Sources */,
+				273847B41EFBFD5700C478A0 /* homepageTableViewController.m in Sources */,
+				273847C01EFBFF4C00C478A0 /* doctorDetailViewController.m in Sources */,
+				2719D0A61EEBD9560089150A /* AppDelegate.m in Sources */,
+				273847BA1EFBFEFA00C478A0 /* signInViewController.m in Sources */,
+				2719D0A31EEBD9560089150A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2719D0B31EEBD9560089150A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2719D0BC1EEBD9560089150A /* PrivateDoctorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2719D0BE1EEBD9560089150A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2719D0C71EEBD9560089150A /* PrivateDoctorUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2719D0B91EEBD9560089150A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2719D09D1EEBD9550089150A /* PrivateDoctor */;
+			targetProxy = 2719D0B81EEBD9560089150A /* PBXContainerItemProxy */;
+		};
+		2719D0C41EEBD9560089150A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2719D09D1EEBD9550089150A /* PrivateDoctor */;
+			targetProxy = 2719D0C31EEBD9560089150A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2719D0AF1EEBD9560089150A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2719D0B01EEBD9560089150A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2719D0C91EEBD9560089150A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2719D0CA1EEBD9560089150A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2719D0CC1EEBD9560089150A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D76DA566FC845A32520BC3F7 /* Pods-PrivateDoctor.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 652H8R63G2;
+				INFOPLIST_FILE = PrivateDoctor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.PrivateDoctor";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2719D0CD1EEBD9560089150A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E8D13B64C6F6C842C73D19A /* Pods-PrivateDoctor.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 652H8R63G2;
+				INFOPLIST_FILE = PrivateDoctor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.PrivateDoctor";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2719D0CF1EEBD9560089150A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PrivateDoctorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.PrivateDoctorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PrivateDoctor.app/PrivateDoctor";
+			};
+			name = Debug;
+		};
+		2719D0D01EEBD9560089150A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PrivateDoctorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.PrivateDoctorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PrivateDoctor.app/PrivateDoctor";
+			};
+			name = Release;
+		};
+		2719D0D21EEBD9560089150A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PrivateDoctorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.PrivateDoctorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PrivateDoctor;
+			};
+			name = Debug;
+		};
+		2719D0D31EEBD9560089150A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PrivateDoctorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.PrivateDoctorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PrivateDoctor;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2719D0991EEBD9550089150A /* Build configuration list for PBXProject "PrivateDoctor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2719D0C91EEBD9560089150A /* Debug */,
+				2719D0CA1EEBD9560089150A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2719D0CB1EEBD9560089150A /* Build configuration list for PBXNativeTarget "PrivateDoctor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2719D0CC1EEBD9560089150A /* Debug */,
+				2719D0CD1EEBD9560089150A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2719D0CE1EEBD9560089150A /* Build configuration list for PBXNativeTarget "PrivateDoctorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2719D0CF1EEBD9560089150A /* Debug */,
+				2719D0D01EEBD9560089150A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2719D0D11EEBD9560089150A /* Build configuration list for PBXNativeTarget "PrivateDoctorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2719D0D21EEBD9560089150A /* Debug */,
+				2719D0D31EEBD9560089150A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2719D0961EEBD9550089150A /* Project object */;
+}
